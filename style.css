@@ -1,3 +1,17 @@
 body {
   font-family: "Montserrat", sans-serif;
+  /* background-color: #272D2D; */
+  /* text-align: center; */
+  margin: 10px;
+  /* box-sizing: inherit; */
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+.again {
+  /* text-align: none; */
 }
