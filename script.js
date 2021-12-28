@@ -7,7 +7,7 @@
 // document.querySelector('.score').textContent = 10;
 // document.querySelector('.guess').value = 23;
 
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+const secretNumber = Math.trunc(Math.random() * 50) + 1;
 const message = document.querySelector(".message");
 let score = 20;
 let highScore = 0;
@@ -56,7 +56,7 @@ document.querySelector(".check").addEventListener("click", function () {
 });
 
 document.querySelector(".again").addEventListener("click", function () {
-  document.querySelector("body").style.backgroundColor = "#222";
+  // document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".number").style.width = "15rem";
   score = 20;
   document.querySelector(".score").textContent = score;

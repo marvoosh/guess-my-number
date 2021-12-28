@@ -1,17 +1,56 @@
 body {
   font-family: "Montserrat", sans-serif;
-  /* background-color: #272D2D; */
-  /* text-align: center; */
+  background-color: #885a5a;
+  color: #fdca40;
   margin: 10px;
   /* box-sizing: inherit; */
 }
 
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #b7cece;
+}
+
+.button:hover {
+  background-color: #6db1b1;
+  border-color: #b7cece;
+}
+
+.guess {
+  height: 100px;
+  background-color: #b7cece;
+  text-align: center;
+  width: 18rem;
+  font-size: 5rem;
+  border-radius: 4px;
+  margin: 10px;
+}
+
 header {
+  text-align: center;
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  /* border-bottom: 7px solid #eee; */
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  /* width: 52rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .again {
   /* text-align: none; */
 }
+
+/* .number {
+  text-align: center;
+} */
