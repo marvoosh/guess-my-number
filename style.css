@@ -3,6 +3,7 @@ body {
   background-color: #885a5a;
   color: #fdca40;
   margin: 10px;
+  font-size: 25px;
   /* box-sizing: inherit; */
 }
 
@@ -11,6 +12,8 @@ body {
   height: 50px;
   border-radius: 4px;
   background-color: #b7cece;
+  font-size: 20px;
+  /* font-weight: 500; */
 }
 
 .button:hover {
@@ -38,6 +41,7 @@ header {
 main {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 .left {
@@ -47,9 +51,14 @@ main {
   align-items: center;
 }
 
-.again {
-  /* text-align: none; */
+h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
 }
+
+/* .again {
+  /* text-align: none; */
+} */
 
 /* .number {
   text-align: center;
